@@ -7,5 +7,6 @@ plt.bar(years,mention,0.8)
 plt.xticks(years)
 
 plt.axis([2012.5,2014.5,499,506])
-#plt.ticklabel_format(useOffset=False)
+#plt.ticklabel_format(useOffset=False)
+
 plt.show()
