@@ -12,8 +12,8 @@ variance_y = 6
 
 
 #Create grid and multivariate normal
-x = np.linspace(-10,10,20000)
-y = np.linspace(-10,10,20000)
+x = np.linspace(-10,10,200)
+y = np.linspace(-10,10,200)
 X, Y = np.meshgrid(x,y)
 pos = np.empty(X.shape + (2,))
 pos[:, :, 0] = X; pos[:, :, 1] = Y
